@@ -22,7 +22,5 @@ using namespace std;
 double sum()
 
 int main(){
-    int 
-    while()
 
 }
