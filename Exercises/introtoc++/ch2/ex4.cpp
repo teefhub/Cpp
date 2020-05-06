@@ -8,16 +8,21 @@ Then display the sum and the difference of these two numbers on screen.
 #include <iostream>
 
 float sum(float *x, float *y){
-    return *x+*y;
+    float sum = (*x+*y);
+    return sum;
 }
 
 float sub(float *x, float *y){
-    return *x-*y;
+    return (*x-*y);
 }
 
 int main(){
-    float x = 123.456F;
-    float y = 76.543F;
+    float x, y;
+    std::cin>>x;
+    std::cout<<"\n";
+    std::cin>>y;
+    std::cout<<"\n";
     sum(&x,&y);
     sub(&x,&y);
+    return 0;
 }
